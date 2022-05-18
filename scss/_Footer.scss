@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+
+    p{
+    font-weight: 900 ;
+    font-family: "Roboto" ;
+    font-size: 20px ;
+    padding-left: 15px ;
+    }
+
+}
+
+.footer__1{
+    margin-top: 15px ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+
+.footer__imagenes{
+    width: 20px;
+}
+
+
+.footer__imagenes_2{
+    width: 32px;
+    
+}
+
+.footer__Contactanos{
+    
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    list-style: none;
+    font-family:"Roboto";
+    font-size: 15px;
+    font-weight: 800 
+}
+
+.footer__Contactanos__a{
+    text-decoration: none;
+    color: rgb(228, 127, 141);
+}
+
+.footer__Atencion{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    list-style: none;
+    font-family:"Roboto" !important;
+    font-size: 15px;
+    font-weight: 800 
+}
+
+.footer__Atencion__a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__Envios{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    list-style: none;
+}
+
+.footer__MetPagos{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color:#d4c1cb;;
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #d4c1cb;
+
+}
+
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fe86f4 !important;
+    outline: 0;
+    box-shadow: none !important ;
+
+}
+
+.footer__li__color{
+    list-style: none;
+    font-weight: 800 ;
+    color: rgb(228, 127, 141)
+}

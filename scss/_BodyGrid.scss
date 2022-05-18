@@ -1,0 +1,28 @@
+.grilla{
+
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    justify-items: center;
+    row-gap: 10px;
+}
+
+header{
+    grid-area: header; 
+}
+
+main{
+    grid-area: main; 
+}
+
+footer{
+    grid-area: footer;
+}

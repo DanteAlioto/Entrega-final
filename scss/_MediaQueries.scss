@@ -1,0 +1,387 @@
+/*media queries*/
+
+
+@media (min-width: 120px) and (max-width: 1023px){
+    .footer__1{
+        display: none !important;
+    }
+}
+
+
+@media (min-width: 120px) and (max-width: 500px){
+    .destacados__section__img{
+        padding: 20px;
+        }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 375px){
+    .accordion-button {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (min-width: 375px) {   
+    .logo__h1{ 
+        font-size: 12px;
+    }
+
+    .ul-nav{
+        font-family: 'Barlow', sans-serif;
+        font-size: 17px;
+    }
+
+    .formulario__section{
+        font-size: 15px;
+    }
+
+    nav{
+        padding-bottom: 15px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 170px;
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .formulario__section{
+        font-size: 17px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 190px;
+    }
+}
+
+
+
+@media screen and (min-width: 650px) {
+    .principal__section__contenedor2{
+        justify-content: space-around ;
+        flex-direction: row;
+    }
+
+    .formulario__input{
+        width: 50%;
+        
+        
+    }
+
+}
+
+
+
+@media (max-width: 700px){
+    .nav_label{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav_menu{
+        padding-left: 0;
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        background:  #dfd4da;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center) ;
+        transition: clip-path 1s ease-in-out;
+    }
+
+    .nav__input:checked + .nav_menu{
+        clip-path: circle(100% at center);
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .contenedor1__img{
+        width: 650px;
+        
+    }
+
+    .formulario__section{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        height: 150px;
+    }
+
+    .formulario__section input{
+        width: 300px;
+    }
+
+    nav{ 
+        
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+    .ul-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav li{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    /*Indumentaria*/
+    .destacados__section__grid{
+        grid-template-areas: 
+        "pack1 pack2 pack3"
+        "pack4 pack5 pack6"
+        "pack7 pack8 pack9"
+        "pack10 pack11 pack12"
+        ;
+
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto ;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+
+
+    /*Institucional*/
+    .form__insti{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 15px;
+        
+    }
+
+
+    .form__insti__mail{
+        margin-right: 30px;
+    }
+    
+    
+    .form__insti__coments{
+        margin-left: 30px;
+    }
+
+.section__insti__p{
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    }   
+}
+
+
+@media (min-width: 1024px){
+    #accordionFlushExample{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .logo{
+        display: flex ;
+        align-items: center;
+        flex-direction: row ;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+.destacados__section__contenedor{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .contenedor1__img{
+        display: none;
+    }
+
+    .contenedor1__img2{
+        display: block;
+        width: 100%;
+    }
+
+    .destacados__section__a{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .pack__img1{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img2{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img3{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .pack__img4{
+        flex-direction: column;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .destacados__h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .footer__1{ 
+        padding-left: 20px;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .footer__imagenes{
+        width: 30px;
+        
+    }
+    
+    
+    .footer__imagenes_2{
+        width: 45px;
+        
+    
+    }
+
+
+    .footer__Contactanos{
+        padding-left: 0px;
+    }
+
+    .footer__Envios{
+        padding-left: 0px;
+    }
+
+    .footer__MetPagos{
+        padding-left: 0px;
+    }
+
+    .footer__Atencion{
+        padding-left: 0px;
+    }
+
+    .footer{
+        width: 100%;
+        
+        p{
+        font-size: 25px;
+        padding-left: 0px;
+        }
+    }
+
+    .contenedor1__img{
+        width: 800px;
+        height: 700px;
+        padding-bottom: 25px;
+    }
+
+    .principal__section__contenedor2{
+    margin-bottom: 20px;
+    }
+
+    .destacados__section__ul{
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap  ;
+    }
+
+
+
+    /*Indumentaria*/
+    .destacados__section__grid{
+        grid-template-areas: 
+        "pack1 pack2 pack3 pack4"
+        "pack5 pack6 pack7 pack8"
+        "pack9 pack10 pack11 pack12"
+        ;
+
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto ;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+    /*Institucional*/
+
+    #formulario{
+        padding-bottom: 25px;
+        align-items: center;
+
+    }
+
+
+    .form__insti__mail{
+        margin-right: 80px;
+    }
+    
+    
+    .form__insti__coments{
+        margin-left: 80px;
+    }
+
+
+    .pricipal__section__insti{
+        font-size: 20px;
+    
+    }
+
+    .form__insti{
+        margin-bottom: 35px;
+        
+    }
+}
+
+
+
+@media screen and (min-width: 1250px) {
+
+    .ul-nav{
+        font-size: 25px;
+    }
+
+    .contenedor1__img{
+        width: 1000px;
+        height: 900px;
+        padding-bottom: 25px;
+    }
+
+
+    /*Indumentaria*/
+    .imagen__productos{
+        width: 250px;
+    }
+}

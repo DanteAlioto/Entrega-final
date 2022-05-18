@@ -1,0 +1,73 @@
+
+@import "Variables";
+
+@import "BodyGrid";
+
+@import "header";
+
+@import "Main";
+
+@import "Form";
+
+@import "Footer";
+
+@import "MediaQueries";
+
+@import "KeyFrames";
+
+
+
+
+
+
+// MAPS
+
+$paddings: (
+    multiproposito: 20px ,
+    indumentaria: 20px ,
+    decoracion: 20px ,
+);
+
+
+@each $valor, $numero in $paddings {
+    .padding-#{$valor} {
+        padding-top: $numero;
+    }
+}
+
+
+// EXTEND
+
+.pricipal__section__insti{
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+    text-align:justify;
+    
+    background-color: $color-primary;
+}
+
+.section__insti__h3{
+    @extend .pricipal__section__insti;
+    padding-top: 20px;
+    padding-left:20px;
+    font-size: 30px;
+}
+
+
+//MIXIN
+
+@mixin size {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.iframe{
+
+    @include size ;
+}
+
+
+
+
