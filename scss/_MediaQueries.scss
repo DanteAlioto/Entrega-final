@@ -198,8 +198,67 @@
     }
 }
 
+@media screen and (max-width: 1023px) {
+    
+    .input-group{
+        display: none;
+    }
 
-@media screen and (min-width: 1024px) {
+}
+
+
+@media screen and (min-width: 1024px) { 
+
+    .form_nav{
+        display: none;
+    }
+
+
+
+    .btn-outline-primary{
+        color: black;
+        border-color: black;
+    }
+
+
+    .input-group{
+        padding-left: 60px;
+        width: 650px;
+    }
+
+
+    .nav_item{
+        font-family: "Roboto";
+        font-weight: 1900;
+        font-size: large;
+    }
+
+    h1{
+        font-family: "Roboto";
+        font-weight: 500;
+    }
+
+    .nav_logo{ 
+    padding-right: 400px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    }
+
+
+    .nuevo_nav_container{
+        flex-direction: column;
+        
+    }
+
+
+    .nuevo_nav{
+    
+    height: 140px;
+    background-color: white;
+    border-bottom: solid #e0dfdf 2px;
+    }
+
 
     .logo{
         display: flex ;
@@ -209,7 +268,7 @@
         margin-bottom: 10px;
     }
 
-.destacados__section__contenedor{
+    .destacados__section__contenedor{
     display: flex;
     flex-direction: row;
     }
