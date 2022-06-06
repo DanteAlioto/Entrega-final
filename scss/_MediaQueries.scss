@@ -19,9 +19,11 @@
 
 @media (min-width: 320px) and (max-width: 375px){
     .accordion-button {
-        font-size: 15px;
+        font-size: $font-1;
     }
-    
+    .articulo{
+        font-size: $font-1;
+    }
 }
 
 
@@ -36,7 +38,7 @@
     }
 
     .formulario__section{
-        font-size: 15px;
+        font-size: $font-1;
     }
 
     nav{
@@ -120,7 +122,7 @@
     .formulario__section{
         display: flex;
         align-items: center;
-        font-size: 25px;
+        font-size: $font-2;
         height: 150px;
     }
 
@@ -198,8 +200,12 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    
+@media screen and (max-width: 1023px) 
+
+{
+    #logo1{ display: none;
+    }
+
     .input-group{
         display: none;
     }
@@ -208,6 +214,20 @@
 
 
 @media screen and (min-width: 1024px) { 
+
+    #logo2{ display: none;
+    }
+
+
+    .imagen__productos:hover{
+        box-shadow: 10px 10px 1px 0px $color-primary;
+    }
+
+    .articulo{
+        font-family: "Roboto";
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
 
     .form_nav{
         display: none;
@@ -242,7 +262,6 @@
     padding-right: 400px;
     margin-top: 10px;
     margin-bottom: 15px;
-
     }
 
 
@@ -267,6 +286,26 @@
         margin-top: 20px;
         margin-bottom: 10px;
     }
+
+    .pricipal__section__insti{
+        background-color: $color-base;
+    }
+
+
+    .section__insti__h3{
+        background-color: $color-primary ;
+    }
+
+
+    .section__insti__p{
+        background-color: $color-base;
+
+    }
+
+    .pricipal__insti{
+        background-color:  $color-base;
+    }
+
 
     .destacados__section__contenedor{
     display: flex;
@@ -357,7 +396,7 @@
         width: 100%;
         
         p{
-        font-size: 25px;
+        font-size: $font-2;
         padding-left: 0px;
         }
     }
@@ -429,7 +468,7 @@
 @media screen and (min-width: 1250px) {
 
     .ul-nav{
-        font-size: 25px;
+        font-size: $font-2;
     }
 
     .contenedor1__img{

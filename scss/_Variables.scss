@@ -1,6 +1,30 @@
 
 
 $color-primary: #f0eeefe0;
+$color-base: white;
+
+$font-1: 15px;
+$font-2: 25px;
 
 
+
+
+
+// EXTEND
+
+.pricipal__section__insti{
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0px;
+    text-align:justify;
+    
+    background-color: $color-primary;
+}
+
+.section__insti__h3{
+    @extend .pricipal__section__insti;
+    padding-top: 20px;
+    padding-left:20px;
+    font-size: 30px;
+}
 
